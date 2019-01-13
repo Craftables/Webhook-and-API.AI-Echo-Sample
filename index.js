@@ -25,7 +25,7 @@ restService.post("/echo", function(req, res) {
   
   return res.json({
     fulfillmentText: speech,
-    source: "EchoService"
+    source: "TruthAI"    
   });
 });
 
